@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Free Code Camp Random Quote Generator</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+<link href="/assets/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div>
+  <h1>Wikipedia Viewer for Freecodecamp</h1>
+  <p class="info">Enter a search term in the form below and press Enter to search Wikipedia.</p>
+    <div>
+      <form id="search">
+      <input type="text" id="searchTerm" placeholder="Enter search term" /><br /><p id="clearButton" class="ion-android-cancel"> Click here to reset the list of articles</p>
+      </form>
+    </div>
+    <div>
+      <ul class="articles-list"></ul>
+      <div id="random">
+        <a class="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here to open a random Wikipedia article.</a>
+      </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
